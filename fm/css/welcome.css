@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700&display=swap');
+
+*{
+    margin:0;
+    padding :0
+    }
+
+body {
+    margin-top: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #54B5BB;
+    color: #f8f8f8;
+    font-size: 14px;
+    word-break: keep-all;
+    overflow-x: hidden;
+    font-weight: 700;
+    line-height: 150%;
+    user-select: none;
+    text-align: center;
+}
+
+.main_logo{
+    width: 270px;
+}
+
+.item {
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    background-color: #54B5BB;
+}
+
+.fill {
+    text-align: center;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #54B5BB;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: rgb(172, 172, 172);
+}
+
+.item_all {
+    position: static;
+}
+
+.long {
+    width: 90%;
+}
+
+@media ( min-width: 768px ) {
+    .long {
+        width: 350px;
+    }
+}
+
+.selced{
+    background-color: rgb(37, 180, 137);
+    color: #FFFFFF;
+}
+
+.selced:hover{
+    background-color: rgb(33, 151, 116);
+}
+
+input {
+    margin-bottom: 10px;
+    height: 36px;
+    width: 250px;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 500;
+    color: #606060;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #c4c4c4;
+}
+
+input:hover {
+    background-color: rgb(233, 233, 233);
+}
